@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="en" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
@@ -15,58 +15,56 @@
   
   <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
   
-  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="_static/book-stylesheet.css" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css" />
-    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="_static/scripts/sphinx-book-theme.js"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js"></script>
-    <script src="_static/script.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="_static/design-tabs.js"></script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
-const thebe_selector = ".thebe,.cell"
-const thebe_selector_input = "pre"
-const thebe_selector_output = ".output, .cell_output"
-</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
+    <script src="_static/script.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Aim 1" href="act1/part1.html" />
@@ -79,19 +77,23 @@ const thebe_selector_output = ".output, .cell_output"
 
   
   
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
-          name="__primary"
-          id="__primary"/>
-  <label class="overlay overlay-primary" for="__primary"></label>
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
   
   <input type="checkbox"
           class="sidebar-toggle"
-          name="__secondary"
-          id="__secondary"/>
-  <label class="overlay overlay-secondary" for="__secondary"></label>
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
   
   <div class="search-button__wrapper">
     <div class="search-button__overlay"></div>
@@ -113,12 +115,22 @@ const thebe_selector_output = ".output, .cell_output"
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
 </form></div>
   </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
   
-    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
-    </nav>
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
   
+
   <div class="bd-container">
     <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
       
       <div class="bd-sidebar-primary bd-sidebar">
         
@@ -133,9 +145,13 @@ const thebe_selector_output = ".output, .cell_output"
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
         <div class="sidebar-primary-item">
+
+  
+    
   
 
 <a class="navbar-brand logo" href="#">
+  
   
   
   
@@ -145,34 +161,45 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="https://github.com/jhufena/jhufena.github.io/blob/main/png/hub_and_spoke.jpg?raw=true" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="https://github.com/jhufena/jhufena.github.io/blob/main/png/hub_and_spoke.jpg?raw=true" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="https://github.com/jhufena/jhufena.github.io/blob/main/png/hub_and_spoke.jpg?raw=true" class="logo__image only-light" alt="Template - Home"/>
+    <script>document.write(`<img src="https://github.com/jhufena/jhufena.github.io/blob/main/png/hub_and_spoke.jpg?raw=true" class="logo__image only-dark" alt="Template - Home"/>`);</script>
   
   
 </a></div>
-        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="act1/part1.html">Aim 1</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="act1/part1.html">Aim 1</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="act1/chapter1.html">Mortality</a></li>
 <li class="toctree-l2"><a class="reference internal" href="act1/chapter2.html">ESRD</a></li>
 <li class="toctree-l2"><a class="reference internal" href="act1/chapter3.html">Frailty</a></li>
 </ul>
-</li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="act2/part2.html">Aim 2</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="act2/part2.html">Aim 2</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="act2/chapter1.html">Hospitalization</a></li>
 <li class="toctree-l2"><a class="reference internal" href="act2/chapter2.html">Length of Stay</a></li>
 <li class="toctree-l2"><a class="reference internal" href="act2/chapter3.html">Outcomes</a></li>
 </ul>
-</li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="act3/part3.html">Aim 3</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2 has-children"><a class="reference internal" href="act3/act1.html">WebApp</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="act3/part3.html">Aim 3</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="act3/act1.html">WebApp</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="act3/part1/part1_1.html">Browser</a></li>
 <li class="toctree-l3"><a class="reference internal" href="act3/part1/part1_2.html">User</a></li>
 <li class="toctree-l3"><a class="reference internal" href="act3/part1/part1_3.html">Annotation</a></li>
 </ul>
-</li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="act3/act2.html">Deployment</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="act3/act2.html">Deployment</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="act3/part2/part2_1.html">GitHub</a></li>
 <li class="toctree-l3"><a class="reference internal" href="act3/part2/part2_2.html">4.2</a></li>
 
@@ -180,15 +207,15 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l3"><a class="reference internal" href="act3/part2/part2_3.html">4.3</a></li>
 
 </ul>
-</li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="act3/act3.html">Iteration</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="act3/act3.html">Iteration</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="act3/part3/part3_1.html">Latest Research</a></li>
 <li class="toctree-l3"><a class="reference internal" href="act3/part3/part3_2.html">Bayesian Updates</a></li>
 <li class="toctree-l3"><a class="reference internal" href="act3/part3/part3_3.html">Missingness and A Priori</a></li>
 </ul>
-</li>
+</details></li>
 </ul>
-</li>
+</details></li>
 </ul>
 
     </div>
@@ -204,7 +231,7 @@ const thebe_selector_output = ".output, .cell_output"
 
       </div>
       
-      <main id="main-content" class="bd-main">
+      <main id="main-content" class="bd-main" role="main">
         
         
 
@@ -213,14 +240,14 @@ const thebe_selector_output = ".output, .cell_output"
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article">
+              <div class="bd-header-article d-print-none">
 <div class="header-article-items header-article__inner">
   
     <div class="header-article-items__start">
       
-        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
   <span class="fa-solid fa-bars"></span>
-</label></div>
+</button></div>
       
     </div>
   
@@ -245,14 +272,14 @@ const thebe_selector_output = ".output, .cell_output"
       
       <li><a href="https://mybinder.org/v2/gh/abikesa/template/main?urlpath=tree/book/website/index.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
-   title="Launch onBinder"
+   title="Launch on Binder"
    data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
 <span class="btn__icon-container">
   
-    <img src="_static/images/logo_binder.svg">
+    <img alt="Binder logo" src="_static/images/logo_binder.svg">
   </span>
 <span class="btn__text-container">Binder</span>
 </a>
@@ -326,26 +353,28 @@ const thebe_selector_output = ".output, .cell_output"
 </button>
 
 
+
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
   </button>
 `);
 </script>
 
+
 <script>
 document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
-</label>
+</button>
 </div></div>
       
     </div>
@@ -379,18 +408,16 @@ document.write(`
               
                 
 <div id="searchbox"></div>
-                <article class="bd-article" role="main">
+                <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="got">
-<span id="preface"></span><h1>GoT<a class="headerlink" href="#got" title="Permalink to this headline">#</a></h1>
+<span id="preface"></span><h1>GoT<a class="headerlink" href="#got" title="Permalink to this heading">#</a></h1>
 <aside class="margin sidebar">
 <p class="sidebar-title"></p>
 <p><a class="reference internal" href="ipynb/thesis.html#thesis"><span class="std std-ref">K08 &amp; Thesis</span></a></p>
 </aside>
 <iframe width="1000" height="800" src="https://www.youtube.com/embed/Y2M2Dgmm958" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<p><a class="reference internal" href="ipynb/got.html#got"><span class="std std-ref">GoT</span></a></p>
-<p>Mor<a class="reference external" href="https://www.youtube.com/watch?v=-meC_S9TCWc">e</a> <a class="reference external" href="https://www.youtube.com/watch?v=CM7jpTJWPkg">.</a><a class="reference external" href="https://github.com/abikesa/will/blob/main/README.md">.</a><a class="reference external" href="https://www.google.com/search?client=safari&amp;sa=X&amp;sca_esv=03047b03c4b9cd9d&amp;rls=en&amp;sxsrf=ADLYWILHaLXruy1SRT1pZiT1N5tsMQT4Ew:1717442618039&amp;q=Mikhaila+Peterson&amp;si=ACC90nwLLwns5sISZcdzuISy7t-NHozt8Cbt6G3WNQfC9ekAgK3ajA9yaTdGZQRzVJTOVsWoFhmoiytOFaLHYIBenh96cLczi8y637J_EjBpoCWx-NzzPvMpsiX2JfINOf80hD0MtHDkd2fpc4fEemKkBbTh3dh7XropzcijIVdvpwoKMYum63KU6kZmgljKh75V61rmt-Oo3IirZaFJD7VipEzcwfiQpcujUYwYkSogf846rS11wteCgIlI6X3v0dyhE8Qs5wne1MlZkF3z0nqw-0f5Rbk4_sEVXmwmPUOpVe_Sn3agRlY%3D&amp;ved=2ahUKEwiHgq6plMCGAxW0ElkFHQRNCjUQmxMoAHoECCMQAg&amp;biw=1396&amp;bih=906&amp;dpr=2#fpstate=ive&amp;vld=cid:0cafdbab,vid:V2kRxZr6b9s,st:0">.</a></p>
-<p><a class="reference internal" href="ipynb/oldindex.html#oldpreface"><span class="std std-ref">GoT</span></a></p>
+<p>Mor<a class="reference external" href="https://www.youtube.com/watch?v=-meC_S9TCWc">e</a> <a class="reference external" href="https://www.youtube.com/watch?v=CM7jpTJWPkg">.</a><a class="reference external" href="https://github.com/abikesa/will/blob/main/README.md">.</a><a class="reference external" href="https://www.google.com/search?client=safari&amp;amp;sa=X&amp;amp;sca_esv=03047b03c4b9cd9d&amp;amp;rls=en&amp;amp;sxsrf=ADLYWILHaLXruy1SRT1pZiT1N5tsMQT4Ew:1717442618039&amp;amp;q=Mikhaila+Peterson&amp;amp;si=ACC90nwLLwns5sISZcdzuISy7t-NHozt8Cbt6G3WNQfC9ekAgK3ajA9yaTdGZQRzVJTOVsWoFhmoiytOFaLHYIBenh96cLczi8y637J_EjBpoCWx-NzzPvMpsiX2JfINOf80hD0MtHDkd2fpc4fEemKkBbTh3dh7XropzcijIVdvpwoKMYum63KU6kZmgljKh75V61rmt-Oo3IirZaFJD7VipEzcwfiQpcujUYwYkSogf846rS11wteCgIlI6X3v0dyhE8Qs5wne1MlZkF3z0nqw-0f5Rbk4_sEVXmwmPUOpVe_Sn3agRlY%3D&amp;amp;ved=2ahUKEwiHgq6plMCGAxW0ElkFHQRNCjUQmxMoAHoECCMQAg&amp;amp;biw=1396&amp;amp;bih=906&amp;amp;dpr=2#fpstate=ive&amp;amp;vld=cid:0cafdbab,vid:V2kRxZr6b9s,st:0">.</a></p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>                1. f(t)
                       \
            2. S(t) -&gt; 4. y:h&#39;(t)=0; t(X&#39;X).X&#39;Y -&gt; 5. b -&gt; 6. SV&#39;
@@ -399,7 +426,7 @@ document.write(`
 </pre></div>
 </div>
 <section id="wild-1-2-3">
-<h2><a class="reference external" href="https://en.wikipedia.org/wiki/God">Wild</a> 1, 2, 3<a class="headerlink" href="#wild-1-2-3" title="Permalink to this headline">#</a></h2>
+<h2><a class="reference external" href="https://en.wikipedia.org/wiki/God">Wild</a> 1, 2, 3<a class="headerlink" href="#wild-1-2-3" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Hideth: A prudent man foreseeth the evil, and hideth himself; but the simple pass on, and are punished. This is the seat of the <code class="docutils literal notranslate"><span class="pre">hunter-gatherer</span></code> who respondeth only to their senses of hunger</p></li>
 <li><p>Seeketh: The fearless will look out for fresh new dancing grounds at any opportunity, with attendant risks. This is the seat of the <code class="docutils literal notranslate"><span class="pre">peasant</span></code> who has decided to overcome the chaotic life of his forebears</p></li>
@@ -407,13 +434,13 @@ document.write(`
 </ul>
 </section>
 <section id="tame-4">
-<h2><a class="reference external" href="https://en.wikipedia.org/wiki/Human">Tame</a> 4<a class="headerlink" href="#tame-4" title="Permalink to this headline">#</a></h2>
+<h2><a class="reference external" href="https://en.wikipedia.org/wiki/Human">Tame</a> 4<a class="headerlink" href="#tame-4" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Whineth: If ever under the wild &amp; chaotinc natural elements; hence, catalog all good &amp; evil; harness good. This is the seat of <code class="docutils literal notranslate"><span class="pre">manufacturing</span></code> in the history of civilization. A latent-space representing the distillation of all forebears and with innovative uses of the excessive produce for beer, wine, cheese, butter, wool, cotton, tobacco, and all the accoutrements we’ve become fond of. <strong>Energy source: hydrocarbons</strong></p></li>
 </ul>
 </section>
 <section id="divine-5-6">
-<h2><a class="reference external" href="https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf">Divine</a> 5, 6<a class="headerlink" href="#divine-5-6" title="Permalink to this headline">#</a></h2>
+<h2><a class="reference external" href="https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf">Divine</a> 5, 6<a class="headerlink" href="#divine-5-6" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Commandeth: leadership, decisiveness, hierarchy of priorities based on vector of coefficients. This is the seat of <code class="docutils literal notranslate"><span class="pre">energy</span></code>, which is always limited and has to be harnessed and directed at affordable costs to priority industries. The <em>biological</em> sources the hunter-gather, peasant, and farmer relied on efficiently harnessed energy via chlorophyll. But now in the <em>social</em> space man has to design energy-harnessing batteries and grids for non-biological products and services</p></li>
 <li><p>Personalized needs catered to &amp; this kind will bend the knee to King, Queen, <a class="reference external" href="https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization">AAA-MM-N</a>. This is the seat of <code class="docutils literal notranslate"><span class="pre">deployment</span></code>. Unlike our forebear hunter-gatherer, peasant, and farmer who lived in proximity of their produce, our accoutrouments are not highly personalized, specialized, and produced to scale with ingredients and components from disparate geographic territories. The final product and service, then, has to be shipped, transported, or deployed into the hands of the <em>end-user</em> <span id="id1">[<a class="reference internal" href="act3/part3/part3_3.html#id5" title="OpenAI. Chatgpt. https://chatgpt.com, 2024. Accessed: 2024-07-26.">1</a>]</span> <span id="id2">[<a class="reference internal" href="act3/part3/part3_3.html#id6" title="Microsoft. Github copilot. https://copilot.microsoft.com, 2024. Accessed: 2024-07-26.">2</a>]</span> <span id="id3">[<a class="reference internal" href="act3/part3/part3_3.html#id7" title="Anthropic. Claude ai. https://claude.ai, 2024. Accessed: 2024-07-26.">3</a>]</span> <span id="id4">[<a class="reference internal" href="act3/part3/part3_3.html#id8" title="Meta AI. Meta ai. https://www.meta.ai, 2024. Accessed: 2024-07-26.">4</a>]</span> <span id="id5">[<a class="reference internal" href="act3/part3/part3_3.html#id9" title="Perplexity AI. Perplexity ai. https://www.perplexity.ai, 2024. Accessed: 2024-07-26.">5</a>]</span>. <strong>Energy source: nuclear</strong> <span id="id6">[<a class="reference internal" href="act3/part3/part3_3.html#id4" title="Nuclear fusion. https://en.wikipedia.org/wiki/Nuclear_fusion, 2024. Accessed: 2024-07-26.">6</a>]</span><span id="id7">[<a class="reference internal" href="act3/part3/part3_3.html#id3" title="Nuclear fission. https://en.wikipedia.org/wiki/Nuclear_fission, 2024. Accessed: 2024-07-26.">7</a>]</span><span id="id8">[<a class="reference internal" href="act3/part3/part3_3.html#id2" title="Geothermal energy. https://en.wikipedia.org/wiki/Geothermal_energy, 2024. Accessed: 2024-07-26.">8</a>]</span></p></li>
@@ -494,13 +521,17 @@ document.write(`
 <p class="sidebar-title"></p>
 <Details>
    <Summary>Grind</Summary>
-<p><a class="reference internal" href="ipynb/dailygrind.html#dailygrind"><span class="std std-ref">Grind</span></a>
-<a class="reference internal" href="ipynb/lse.html#lse"><span class="std std-ref">Nice!</span></a></p>
+<ul class="simple">
+<li><p><a class="reference internal" href="ipynb/dailygrind.html#dailygrind"><span class="std std-ref">Grind</span></a></p></li>
+<li><p><a class="reference internal" href="ipynb/lse.html#lse"><span class="std std-ref">Nice!</span></a></p></li>
+<li><p><a class="reference internal" href="ipynb/got.html#got"><span class="std std-ref">GoT</span></a></p></li>
+<li><p><a class="reference internal" href="ipynb/oldindex.html#oldpreface"><span class="std std-ref">Tech</span></a></p></li>
+</ul>
 </Details>
 </aside>
 </section>
 <section id="table-of-contents">
-<h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this headline">#</a></h2>
+<h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this heading">#</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="act1/part1.html">Aim 1</a></li>
@@ -536,11 +567,10 @@ document.write(`
 
               
               
-                <footer class="bd-footer-article">
+              
+              
+                <footer class="prev-next-footer d-print-none">
                   
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="right-next"
        href="act1/part1.html"
@@ -551,10 +581,7 @@ document.write(`
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -562,6 +589,7 @@ document.write(`
             
               
                 <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
 
   <div class="sidebar-secondary-item">
   <div class="page-toc tocsection onthispage">
@@ -594,6 +622,7 @@ By ADM
   
   <div class="footer-item">
     
+
   </div>
   
   <div class="footer-item">
@@ -617,8 +646,8 @@ By ADM
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>

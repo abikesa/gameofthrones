@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 
-<html lang="en" >
+<html lang="en" data-content_root="" >
 
   <head>
     <meta charset="utf-8" />
@@ -15,60 +15,58 @@
   
   <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="../_static/book-stylesheet.css" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../_static/togglebutton.js"></script>
-    <script src="../_static/script.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/design-tabs.js"></script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
-const thebe_selector = ".thebe,.cell"
-const thebe_selector_input = "pre"
-const thebe_selector_output = ".output, .cell_output"
-</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'act3/part3';</script>
+    <script src="../_static/script.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Rankings" href="act1.html" />
@@ -82,19 +80,23 @@ const thebe_selector_output = ".output, .cell_output"
 
   
   
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
-          name="__primary"
-          id="__primary"/>
-  <label class="overlay overlay-primary" for="__primary"></label>
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
   
   <input type="checkbox"
           class="sidebar-toggle"
-          name="__secondary"
-          id="__secondary"/>
-  <label class="overlay overlay-secondary" for="__secondary"></label>
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
   
   <div class="search-button__wrapper">
     <div class="search-button__overlay"></div>
@@ -116,12 +118,20 @@ const thebe_selector_output = ".output, .cell_output"
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
 </form></div>
   </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
   
-    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
-    </nav>
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
   
+
   <div class="bd-container">
     <div class="bd-container__inner bd-page-width">
+      
+      
       
       <div class="bd-sidebar-primary bd-sidebar">
         
@@ -136,9 +146,13 @@ const thebe_selector_output = ".output, .cell_output"
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
         <div class="sidebar-primary-item">
+
+  
+    
   
 
 <a class="navbar-brand logo" href="../index.html">
+  
   
   
   
@@ -148,34 +162,45 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="https://github.com/jhufena/jhufena.github.io/blob/main/png/hub_and_spoke.jpg?raw=true" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="https://github.com/jhufena/jhufena.github.io/blob/main/png/hub_and_spoke.jpg?raw=true" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="https://github.com/jhufena/jhufena.github.io/blob/main/png/hub_and_spoke.jpg?raw=true" class="logo__image only-light" alt="Template - Home"/>
+    <script>document.write(`<img src="https://github.com/jhufena/jhufena.github.io/blob/main/png/hub_and_spoke.jpg?raw=true" class="logo__image only-dark" alt="Template - Home"/>`);</script>
   
   
 </a></div>
-        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../act1/part1.html">Aim 1</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../act1/part1.html">Aim 1</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../act1/chapter1.html">Mortality</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../act1/chapter2.html">ESRD</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../act1/chapter3.html">Frailty</a></li>
 </ul>
-</li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../act2/part2.html">Aim 2</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../act2/part2.html">Aim 2</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../act2/chapter1.html">Hospitalization</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../act2/chapter2.html">Length of Stay</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../act2/chapter3.html">Outcomes</a></li>
 </ul>
-</li>
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Aim 3</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2 has-children"><a class="reference internal" href="act1.html">WebApp</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Aim 3</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="act1.html">WebApp</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="part1/part1_1.html">Browser</a></li>
 <li class="toctree-l3"><a class="reference internal" href="part1/part1_2.html">User</a></li>
 <li class="toctree-l3"><a class="reference internal" href="part1/part1_3.html">Annotation</a></li>
 </ul>
-</li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="act2.html">Deployment</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="act2.html">Deployment</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="part2/part2_1.html">GitHub</a></li>
 <li class="toctree-l3"><a class="reference internal" href="part2/part2_2.html">4.2</a></li>
 
@@ -183,15 +208,15 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l3"><a class="reference internal" href="part2/part2_3.html">4.3</a></li>
 
 </ul>
-</li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="act3.html">Iteration</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="act3.html">Iteration</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="part3/part3_1.html">Latest Research</a></li>
 <li class="toctree-l3"><a class="reference internal" href="part3/part3_2.html">Bayesian Updates</a></li>
 <li class="toctree-l3"><a class="reference internal" href="part3/part3_3.html">Missingness and A Priori</a></li>
 </ul>
-</li>
+</details></li>
 </ul>
-</li>
+</details></li>
 </ul>
 
     </div>
@@ -207,7 +232,7 @@ const thebe_selector_output = ".output, .cell_output"
 
       </div>
       
-      <main id="main-content" class="bd-main">
+      <main id="main-content" class="bd-main" role="main">
         
         
 
@@ -216,14 +241,14 @@ const thebe_selector_output = ".output, .cell_output"
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article">
+              <div class="bd-header-article d-print-none">
 <div class="header-article-items header-article__inner">
   
     <div class="header-article-items__start">
       
-        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
   <span class="fa-solid fa-bars"></span>
-</label></div>
+</button></div>
       
     </div>
   
@@ -298,26 +323,28 @@ const thebe_selector_output = ".output, .cell_output"
 </button>
 
 
+
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
   </button>
 `);
 </script>
 
+
 <script>
 document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
-</label>
+</button>
 </div></div>
       
     </div>
@@ -368,16 +395,16 @@ document.write(`
               
                 
 <div id="searchbox"></div>
-                <article class="bd-article" role="main">
+                <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="aim-3">
-<span id="aim3-main"></span><h1>Aim 3<a class="headerlink" href="#aim-3" title="Permalink to this headline">#</a></h1>
+<span id="aim3-main"></span><h1>Aim 3<a class="headerlink" href="#aim-3" title="Permalink to this heading">#</a></h1>
 <Details>
    <Summary>WSJ</Summary>
 <section id="insurers-pocketed-50-billion-from-medicare-for-diseases-no-doctor-treated">
-<h2>Insurers Pocketed $50 Billion From Medicare for Diseases No Doctor Treated<a class="headerlink" href="#insurers-pocketed-50-billion-from-medicare-for-diseases-no-doctor-treated" title="Permalink to this headline">#</a></h2>
+<h2>Insurers Pocketed $50 Billion From Medicare for Diseases No Doctor Treated<a class="headerlink" href="#insurers-pocketed-50-billion-from-medicare-for-diseases-no-doctor-treated" title="Permalink to this heading">#</a></h2>
 <section id="questionable-diagnoses-of-hiv-and-other-maladies-triggered-extra-medicare-advantage-payments-its-anatomically-impossible">
-<h3>Questionable diagnoses of HIV and other maladies triggered extra Medicare Advantage payments; ‘It’s anatomically impossible’<a class="headerlink" href="#questionable-diagnoses-of-hiv-and-other-maladies-triggered-extra-medicare-advantage-payments-its-anatomically-impossible" title="Permalink to this headline">#</a></h3>
+<h3>Questionable diagnoses of HIV and other maladies triggered extra Medicare Advantage payments; ‘It’s anatomically impossible’<a class="headerlink" href="#questionable-diagnoses-of-hiv-and-other-maladies-triggered-extra-medicare-advantage-payments-its-anatomically-impossible" title="Permalink to this heading">#</a></h3>
 <figure class="align-default" id="id4">
 <img alt="https://images.wsj.net/im-973346/?width=2000&amp;size=1.9493177387914" src="https://images.wsj.net/im-973346/?width=2000&amp;size=1.9493177387914" />
 <figcaption>
@@ -401,7 +428,7 @@ Instead of saving taxpayers money, Medicare Advantage has added tens of billions
 <p>In all, Medicare paid insurers about $50 billion for diagnoses added just by insurers in the three years ending in 2021, the Journal’s analysis showed.</p>
 </section>
 <section id="how-medicare-pays-insurers">
-<h3>How Medicare pays insurers<a class="headerlink" href="#how-medicare-pays-insurers" title="Permalink to this headline">#</a></h3>
+<h3>How Medicare pays insurers<a class="headerlink" href="#how-medicare-pays-insurers" title="Permalink to this heading">#</a></h3>
 <p>The government pays insurers a base rate for each Medicare Advantage member. The insurers are entitled to extra money when their patients are diagnosed with certain conditions that are costly to treat.</p>
 <p>Diabetic cataracts are a complication of diabetes that occur when uncontrolled blood sugar damages the lens of the eye, clouding a person’s vision.</p>
 <p>UnitedHealth members were about 15 times as likely to have that diagnosis as the average patient in traditional Medicare, the Journal analysis found. Eye doctors interviewed by the Journal said it was implausible that such a large share of UnitedHealth’s patients could have the relatively rare disease.</p>
@@ -418,7 +445,7 @@ Instead of saving taxpayers money, Medicare Advantage has added tens of billions
 </section>
 </section>
 <section id="no-treatment">
-<h2>No treatment<a class="headerlink" href="#no-treatment" title="Permalink to this headline">#</a></h2>
+<h2>No treatment<a class="headerlink" href="#no-treatment" title="Permalink to this heading">#</a></h2>
 <p>About 18,000 Medicare Advantage recipients had insurer-driven diagnoses of HIV, the virus that causes AIDS, but weren’t receiving treatment for the virus from doctors, between 2018 and 2021, the data showed. Each HIV diagnosis generates about $3,000 a year in added payments to insurers.</p>
 <p>Everyone with HIV should be on antiretroviral drugs, the only effective treatment, and nearly all Medicare patients whose doctors diagnosed the virus took the drugs. Less than 17% of patients with insurer-driven HIV diagnoses were on them, the Journal found.</p>
 <p>“It seems like almost all of those people don’t have HIV,” said Jennifer Kates, HIV policy director at KFF, a health-research nonprofit. “If they did, that would be substandard care at a pretty severe level,” she said.</p>
@@ -440,7 +467,7 @@ Instead of saving taxpayers money, Medicare Advantage has added tens of billions
 <p>“They’re totally wrong,” said Douglas Dieterich, director of the Institute for Liver Medicine at Mount Sinai Health System in New York. “Real world evidence is a 99% cure rate.”</p>
 </section>
 <section id="cost-concerns">
-<h2>Cost concerns<a class="headerlink" href="#cost-concerns" title="Permalink to this headline">#</a></h2>
+<h2>Cost concerns<a class="headerlink" href="#cost-concerns" title="Permalink to this heading">#</a></h2>
 <p>When Congress conceived of the Medicare Advantage program decades ago, the hope was that insurers would make Medicare more efficient. In traditional Medicare, doctors and hospitals get paid for each service they provide, an incentive to provide more. The idea behind Medicare Advantage was to pay private insurers a lump sum to cover all services, giving them an incentive to keep patients healthier.</p>
 <p>To protect insurers from the risk of winding up with sicker-than-average patients, the government allowed bigger payments for certain serious health conditions.</p>
 <p>Partly because of that, Medicare Advantage has cost the government an extra <span class="math notranslate nohighlight">\(591 billion over the past 18 years, compared with what Medicare would have cost without the help of the private plans, according to a March report by the Medicare Payment Advisory Commission, or MedPAC, a nonpartisan agency that advises Congress. Adjusted for inflation, that amounts to \)</span>4,300 per U.S. tax filer.</p>
@@ -454,7 +481,7 @@ John Gorman, a former Medicare official and founder of two companies that review
 <p>In 2019, Medicare added dementia to the list of diseases that pay more. That same year, the reported rate of the disease among Medicare Advantage members jumped 7.8% after holding flat for years before that, University of Southern California researchers found.</p>
 </section>
 <section id="vision-problems">
-<h2>Vision problems<a class="headerlink" href="#vision-problems" title="Permalink to this headline">#</a></h2>
+<h2>Vision problems<a class="headerlink" href="#vision-problems" title="Permalink to this heading">#</a></h2>
 <p>Cataracts are extremely common in the elderly—pretty much everyone gets them. Diabetes also is common, so it isn’t unusual for old people to have both. But eye doctors say they rarely diagnose cataracts caused by diabetes in old people. It usually isn’t possible to pinpoint the cause, and in any case, the treatment is the same.</p>
 <p>For Medicare Advantage insurers, a big difference between the two forms of cataracts is that the government only pays extra for the diabetic ones.</p>
 <p>Some insurers interpreted U.S. guidelines for recording diagnoses in the broadest possible way, labeling patients with diabetes and any kind of cataract with the more lucrative diagnosis. They did it even when doctors said the patients only had the old-age form of the disease or had no diabetic complications at all, the data show.</p>
@@ -524,7 +551,7 @@ Lee’s doctor, Nancy Keating, also a professor at Harvard Medical School, said 
 </ol>
 <p><strong>Dionysian Elements in “A Serious Man”</strong></p>
 <section id="dionysus-1-2-3">
-<h3>Dionysus 1, 2, 3<a class="headerlink" href="#dionysus-1-2-3" title="Permalink to this headline">#</a></h3>
+<h3>Dionysus 1, 2, 3<a class="headerlink" href="#dionysus-1-2-3" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><strong>Chaos, Frenzy, Energy:</strong></p>
 <ul>
@@ -534,23 +561,23 @@ Lee’s doctor, Nancy Keating, also a professor at Harvard Medical School, said 
 </ul>
 </section>
 <section id="sing-o-muse-4">
-<h3>Sing O Muse 4<a class="headerlink" href="#sing-o-muse-4" title="Permalink to this headline">#</a></h3>
+<h3>Sing O Muse 4<a class="headerlink" href="#sing-o-muse-4" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><strong>Film Connection:</strong> The muse-like figures in the film, such as the rabbis and the enigmatic messages Larry receives, guide him through his journey, though often in ambiguous and perplexing ways.</p></li>
 </ul>
 </section>
 <section id="apollo">
-<h3>Apollo<a class="headerlink" href="#apollo" title="Permalink to this headline">#</a></h3>
+<h3>Apollo<a class="headerlink" href="#apollo" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><strong>Film Connection:</strong> The Apollonian drive for order, reason, and clarity is constantly undermined by the chaotic and irrational events Larry faces. The tension between Dionysian chaos and Apollonian order is central to the film’s thematic exploration.</p></li>
 </ul>
 <p><strong>Good Luck 1, 2, 3</strong></p>
 </section>
 <section id="math-4">
-<h3>Math 4<a class="headerlink" href="#math-4" title="Permalink to this headline">#</a></h3>
+<h3>Math 4<a class="headerlink" href="#math-4" title="Permalink to this heading">#</a></h3>
 </section>
 <section id="common-sense-5-6">
-<h3>Common Sense 5, 6<a class="headerlink" href="#common-sense-5-6" title="Permalink to this headline">#</a></h3>
+<h3>Common Sense 5, 6<a class="headerlink" href="#common-sense-5-6" title="Permalink to this heading">#</a></h3>
 <p><strong>Chaos, Frenzy, Energy:</strong></p>
 <ul class="simple">
 <li><p><strong>Film Connection:</strong> Larry’s attempts to understand his plight through rational means (math and physics) are thwarted by the chaotic, frenzied energy of his life events. His quest for answers is a struggle between logical reasoning and the irrational forces at play.</p></li>
@@ -563,7 +590,7 @@ Lee’s doctor, Nancy Keating, also a professor at Harvard Medical School, said 
 <p>Absolutely, the neighborly frenzy in “A Serious Man” adds another layer to the chaotic tapestry of Larry Gopnik’s life, highlighting the Dionysian elements you mentioned.</p>
 </section>
 <section id="chaos-and-frenzy-with-the-neighbor">
-<h3>Chaos and Frenzy with the Neighbor<a class="headerlink" href="#chaos-and-frenzy-with-the-neighbor" title="Permalink to this headline">#</a></h3>
+<h3>Chaos and Frenzy with the Neighbor<a class="headerlink" href="#chaos-and-frenzy-with-the-neighbor" title="Permalink to this heading">#</a></h3>
 <ol class="arabic simple">
 <li><p><strong>Chaos and Frenzy:</strong></p>
 <ul class="simple">
@@ -579,7 +606,7 @@ Lee’s doctor, Nancy Keating, also a professor at Harvard Medical School, said 
 </ol>
 </section>
 <section id="collective-unconscious-and-latency-space">
-<h3>Collective Unconscious and Latency Space<a class="headerlink" href="#collective-unconscious-and-latency-space" title="Permalink to this headline">#</a></h3>
+<h3>Collective Unconscious and Latency Space<a class="headerlink" href="#collective-unconscious-and-latency-space" title="Permalink to this heading">#</a></h3>
 <ol class="arabic simple">
 <li><p><strong>Millennia-of-Experiences:</strong></p>
 <ul class="simple">
@@ -599,7 +626,7 @@ Lee’s doctor, Nancy Keating, also a professor at Harvard Medical School, said 
 </ol>
 </section>
 <section id="math-common-sense-and-algorithms">
-<h3>Math, Common Sense, and Algorithms<a class="headerlink" href="#math-common-sense-and-algorithms" title="Permalink to this headline">#</a></h3>
+<h3>Math, Common Sense, and Algorithms<a class="headerlink" href="#math-common-sense-and-algorithms" title="Permalink to this heading">#</a></h3>
 <ol class="arabic simple">
 <li><p><strong>Chaos, Frenzy, Energy:</strong></p>
 <ul class="simple">
@@ -638,7 +665,7 @@ Lee’s doctor, Nancy Keating, also a professor at Harvard Medical School, said 
 <p>Indeed, the failing TV signal reception in “A Serious Man” is another potent symbol of the unpredictable and chaotic elements that permeate Larry Gopnik’s life, reinforcing the film’s themes of randomness and the limits of human understanding.</p>
 </section>
 <section id="chaos-and-frenzy-with-the-tv-signal">
-<h3>Chaos and Frenzy with the TV Signal<a class="headerlink" href="#chaos-and-frenzy-with-the-tv-signal" title="Permalink to this headline">#</a></h3>
+<h3>Chaos and Frenzy with the TV Signal<a class="headerlink" href="#chaos-and-frenzy-with-the-tv-signal" title="Permalink to this heading">#</a></h3>
 <ol class="arabic simple">
 <li><p><strong>Chaos and Frenzy:</strong></p>
 <ul class="simple">
@@ -653,7 +680,7 @@ Lee’s doctor, Nancy Keating, also a professor at Harvard Medical School, said 
 </ol>
 </section>
 <section id="id2">
-<h3>Collective Unconscious and Latency Space<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h3>
+<h3>Collective Unconscious and Latency Space<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
 <ol class="arabic simple">
 <li><p><strong>Millennia-of-Experiences:</strong></p>
 <ul class="simple">
@@ -678,7 +705,7 @@ Lee’s doctor, Nancy Keating, also a professor at Harvard Medical School, said 
 </ol>
 </section>
 <section id="id3">
-<h3>Math, Common Sense, and Algorithms<a class="headerlink" href="#id3" title="Permalink to this headline">#</a></h3>
+<h3>Math, Common Sense, and Algorithms<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
 <ol class="arabic simple">
 <li><p><strong>Chaos, Frenzy, Energy:</strong></p>
 <ul class="simple">
@@ -736,11 +763,10 @@ Lee’s doctor, Nancy Keating, also a professor at Harvard Medical School, said 
 
               
               
-                <footer class="bd-footer-article">
+              
+              
+                <footer class="prev-next-footer d-print-none">
                   
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="../act2/chapter3.html"
@@ -760,10 +786,7 @@ Lee’s doctor, Nancy Keating, also a professor at Harvard Medical School, said 
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -771,6 +794,7 @@ Lee’s doctor, Nancy Keating, also a professor at Harvard Medical School, said 
             
               
                 <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
 
   <div class="sidebar-secondary-item">
   <div class="page-toc tocsection onthispage">
@@ -820,6 +844,7 @@ By ADM
   
   <div class="footer-item">
     
+
   </div>
   
   <div class="footer-item">
@@ -843,8 +868,8 @@ By ADM
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>
